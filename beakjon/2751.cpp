@@ -11,6 +11,7 @@ int main() {
         cin >> tmp;
         a.push_back(tmp);
     }
+
     sort(a.begin(),a.end());
     for(int i = 0; i < num; i++)
         cout << a[i] << '\n';
